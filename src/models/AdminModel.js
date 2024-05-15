@@ -17,7 +17,7 @@ const AdminModel = new Schema(
     },
     isAllowed: {
       type: Boolean,
-      default: true,
+      default: false,
     }
   },
   {
